@@ -2,14 +2,14 @@
 // Inserisci un numero, se è pari stampa il numero, se è dispari
 // stampa il numero successivo
 
-var numbers = parseInt(prompt('Inserisci un numero'));
-var evenNumber = isEven(numbers);
+var userNumbers = parseInt(prompt('Inserisci un numero'));
+var evenNumber = isEven(userNumbers);
 
-function isEven(num) {
-  if (numbers % 2 == 0) {
-    return numbers;
+function isEven(numero) {
+  if (userNumbers % 2 == 0) {
+    return userNumbers;
   } else {
-    return numbers + 1;
+    return userNumbers + 1;
   }
 }
 console.log(evenNumber);

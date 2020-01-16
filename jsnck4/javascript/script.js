@@ -3,10 +3,9 @@
 // Aggiungi elementi casuali all’array che ha meno elementi,
 // fino a quando ne avrà tanti quanti l’altro.
 
-var array1 = ['quiquoqua', 'junior', 'supermario', 'superluigi', 'crillin', 'goku', 'vegeta'];
-var array2 = ['pippo', 'pluto', 'paperino', 'minnie'];
+var array1 = ['quiquoqua', 'junior', 'drago shenron', 're kaio', 'crillin', 'goku', 'vegeta', 'c-18', 'c-16', 'c-17'];
+var array2 = ['gogeta', 'vegetto', 'trunks', 'goten'];
 var casualItem = ['majinbu', 'bulma', 'gohan', 'cell', 'broly', 'songoku', 'freezer'];
-
 
 
 while(array1.length > array2.length) {
